@@ -1,0 +1,181 @@
+/*TEMP OUTLINE STYLES FOR STUDIO */
+tbody {
+  padding: 3px !important;
+}
+tbody > *,
+tbody > * > *,
+tbody > * > * > *,
+tbody > * > * > * > *,
+tbody > * > * > * > * > * {
+  position: relative;
+}
+tbody > *::before,
+tbody > * > *::before,
+tbody > * > * > *::before,
+tbody > * > * > * > *::before,
+tbody > * > * > * > * > *::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Courier New", "monotype";
+  text-transform: none;
+  white-space: nowrap;
+}
+tbody > * {
+  background-color: rgba(0, 128, 0, 0.2);
+  -webkit-box-shadow: 0 0 0 2px #43810B;
+          box-shadow: 0 0 0 2px #43810B;
+}
+tbody > *::before {
+  color: #fff;
+  background-color: #43810B;
+}
+tbody > * > * {
+  /* z-index: 1 */
+  background-color: rgba(255, 45, 82, 0.2);
+  -webkit-box-shadow: inset 0 0 0 3px #EF482A;
+          box-shadow: inset 0 0 0 3px #EF482A;
+}
+tbody > * > *::before {
+  color: #fff;
+  background-color: #EF482A;
+}
+tbody > * > * > * {
+  z-index: 1;
+  background-color: rgba(255, 255, 0, 0.4);
+  -webkit-box-shadow: inset 0 0 0 2px #FAED33;
+          box-shadow: inset 0 0 0 2px #FAED33;
+}
+tbody > * > * > *::before {
+  font-size: 14px;
+  color: #333333;
+  background-color: #FAED33;
+}
+tbody > * > * > * > * {
+  background-color: rgba(32, 16, 176, 0.2);
+  -webkit-box-shadow: inset 0 0 0 2px #2010b0;
+          box-shadow: inset 0 0 0 2px #2010b0;
+}
+tbody > * > * > * > *::before {
+  color: #fff;
+  background-color: #2010b0;
+}
+tbody > * > * > * > * > * {
+  background-color: rgba(164, 14, 201, 0.2);
+  -webkit-box-shadow: inset 0 0 0 2px #a40ec9;
+          box-shadow: inset 0 0 0 2px #a40ec9;
+}
+tbody > * > * > * > * > *::before {
+  color: #fff;
+  background-color: #a40ec9;
+}
+tbody > * > * > * > * > * > * {
+  background-color: rgba(164, 14, 201, 0.2);
+  -webkit-box-shadow: inset 0 0 0 2px #a40ec9;
+          box-shadow: inset 0 0 0 2px #a40ec9;
+}
+tbody > * > * > * > * > * > *::before {
+  color: #fff;
+  background-color: #a40ec9;
+}
+.header-td::before {
+  top: 0;
+  right: 0;
+  z-index: 999;
+  content: "header-td";
+}
+.table-850::before {
+  top: 0;
+  left: 0;
+  z-index: 999;
+  content: "table-850";
+}
+.table-600::before {
+  top: -25px;
+  left: 0;
+  font-size: 10px;
+  content: "table-600";
+}
+.banner-td::before {
+  bottom: 0;
+  right: 0;
+  z-index: 999;
+  content: "banner-td";
+}
+.features-td::before {
+  top: 0;
+  left: 0;
+  z-index: 999;
+  content: "features-td";
+}
+.features-td td::before {
+  top: 0;
+  right: 0;
+  z-index: 999;
+  content: "feature-td";
+}
+.blockqoute-td::before {
+  top: 0;
+  left: 0;
+  z-index: 999;
+  content: "blockqoute-td";
+}
+.block-td::before {
+  top: 0;
+  left: 0;
+  z-index: 999;
+  content: "block-td";
+}
+.block-table::before {
+  top: 0;
+  right: 0;
+  z-index: 999;
+  content: "table.block-table";
+}
+.block-table p::before {
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  content: "p.desc";
+}
+.author::before {
+  top: 0;
+  left: 0;
+  z-index: 999;
+  content: "td.author";
+}
+.footer-td::before {
+  top: 0;
+  left: 0;
+  z-index: 999;
+  content: "footer-td";
+}
+.footer-logo::before {
+  top: 0;
+  left: 0;
+  z-index: 999;
+  content: "td.footer-logo";
+}
+.footer-menu-td::before {
+  top: 0;
+  right: 0;
+  z-index: 999;
+  content: "footer-menu-td";
+}
+.footer-menu-td table::before {
+  top: -25px;
+  right: 0;
+  z-index: 999;
+  font-size: 10px;
+  content: "table-menu";
+}
+.copyright-td::before {
+  bottom: -25px;
+  right: 0;
+  z-index: 999;
+  font-size: 10px;
+  content: "copyright-td";
+}

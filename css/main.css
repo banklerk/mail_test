@@ -188,6 +188,9 @@ table td {
   .author {
     width: 130px !important;
   }
+  .author p {
+    font-size: 12px;
+  }
   .footer-menu-td table {
     width: 260px !important;
   }
